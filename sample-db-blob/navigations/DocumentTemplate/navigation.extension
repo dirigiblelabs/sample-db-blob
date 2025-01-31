@@ -1,0 +1,5 @@
+{
+    "extensionPoint": "dashboard-navigations",
+    "module": "sample-db-blob/navigations/DocumentTemplate/service.js",
+    "description": "Example Document Templates Navigation"
+}

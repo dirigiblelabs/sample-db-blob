@@ -1,0 +1,5 @@
+{
+    "module": "sample-db-blob/gen/codbex-templates/ui/Templates/DocumentTemplate/dialog-filter/view.js",
+    "extensionPoint": "sample-db-blob-dialog-window",
+    "description": "sample-db-blob - Application Dialog Window"
+}

@@ -1,0 +1,39 @@
+{
+    "schema": {
+        "structures": [
+            {
+                "name": "DIRIGIBLE_DOCUMENTTEMPLATE",
+                "type": "TABLE",
+                "columns": [
+                    {
+                        "type": "INTEGER",
+                        "primaryKey": true,
+                        "identity": true,
+                        "nullable": true,
+                        "name": "DOCUMENTTEMPLATE_ID"
+                    },
+                    {
+                        "type": "INTEGER",
+                        "nullable": true,
+                        "name": "DOCUMENTTEMPLATE_TYPE"
+                    },
+                    {
+                        "type": "BLOB",
+                        "nullable": true,
+                        "name": "DOCUMENTTEMPLATE_CONTENT"
+                    }
+                ]
+            },
+            {
+                "name": "DocumentTemplate_Number",
+                "type": "foreignKey",
+                "table": "DIRIGIBLE_DOCUMENTTEMPLATE",
+                "constraintName": "DocumentTemplate_Number",
+                "columns": "DOCUMENTTEMPLATE_TYPE",
+                "referencedTable": "DIRIGIBLE_NUMBER",
+                "referencedColumns": "NUMBER_ID"
+            }
+        ]
+    },
+    "datasource": "DefaultDB"
+}

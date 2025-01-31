@@ -1,0 +1,26 @@
+{
+  "files": [
+    {
+      "table": "DIRIGIBLE_DOCUMENTTEMPLATE",
+      "schema": "PUBLIC",
+      "file": "/sample-db-blob/data/document-template.csv",
+      "header": true,
+      "useHeaderNames": false,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true,
+      "version": "1.0.0"
+    },
+    {
+      "table": "CODBEX_NUMBER",
+      "schema": "PUBLIC",
+      "file": "/sample-db-blob/data/numbers.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true,
+      "version": ""
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+    "module": "sample-db-blob/gen/codbex-templates/ui/launchpad/Home/view.js",
+    "extensionPoint": "sample-db-blob-view",
+    "description": "sample-db-blob - Application View"
+}

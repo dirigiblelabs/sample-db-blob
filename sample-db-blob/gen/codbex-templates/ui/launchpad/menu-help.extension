@@ -1,0 +1,5 @@
+{
+    "module": "sample-db-blob/gen/codbex-templates/ui/launchpad/menu-help.js",
+    "extensionPoint": "sample-db-blob-menu",
+    "description": "sample-db-blob - Application Menu"
+}
