@@ -25,6 +25,10 @@ class SalesInvoiceTemplateService {
             }
         })
 
-        return template[0].Content.getBytes(1);
+        let result = "";
+        for (let i in template[0].Content) {
+            result += String.fromCharCode(template[0].Content[i]);
+        }
+        return result;
     }
 }
